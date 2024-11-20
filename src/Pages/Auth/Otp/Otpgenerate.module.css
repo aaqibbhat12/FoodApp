@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.maindiv {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../assets/Images/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.leftdiv {
+  width: 639px;
+  height: 524px;
+  margin-left: 100px;
+  padding: 117px 0;
+}
+
+.leftinsidediv {
+  width: 525px;
+  height: 264px;
+  margin-left: 58px;
+  margin-top: 80px;
+  position: relative; /* Allows for positioning the image within this div */
+}
+
+.lefttext {
+  display: flex;
+  align-items: baseline;
+}
+
+.partnerspan {
+  font-family: "Open Sans", sans-serif;
+  font-size: 81px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.withspan {
+  font-family: "Open Sans", sans-serif;
+  font-size: 81px;
+  font-weight: 300;
+  padding-left: 50px; /* Adjust as needed */
+  color: rgba(255, 255, 255, 1);
+}
+
+.foodcartspan {
+  font-family: "Open Sans", sans-serif;
+  font-size: 81px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+  margin-top: -10px; /* Adjust for better alignment */
+}
+
+.vectorimg {
+  position: absolute;
+  top: 110px;
+  width: 50%;
+}
+
+.rightdiv {
+  width: 300px;
+  height: 420px;
+  margin-top: 100px;
+  margin-left: 150px;
+  border-radius: 20px;
+  background: rgba(32, 32, 32, 1);
+  box-shadow: 2px 4px 4px 0px rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.verifycode {
+  width: 273px;
+  height: 75px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  background: transparent;
+}
+.otpsent {
+  width: 300px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  background: transparent;
+  color: rgba(255, 255, 255, 1);
+}
+.otpinputs {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background: transparent;
+  margin-left: 10px;
+}
+/* .otpinputs div {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+} */
+.otpinputs input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 10px;
+  color: #ffffff;
+  color: rgba(250, 74, 12, 1);
+  font-family: Petrona;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45.12px;
+  letter-spacing: 0.05em;
+  border: none;
+}
+
+.resendotp {
+  width: 100%;
+  height: 37px;
+  margin-top: 40px;
+  background: transparent;
+  margin-left: 20px;
+}
+.insideresendotpdiv {
+  width: 286px;
+  height: 22px;
+  top: 8px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21.79px;
+  letter-spacing: 0.05em;
+  margin-left: 15px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  background: transparent;
+}
+.insideresendotpdiv span {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.79px;
+  letter-spacing: 0.05em;
+  color: rgba(250, 74, 12, 1);
+}
+
+.buttondiv {
+  width: 247px;
+  height: 64px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: rgba(250, 74, 12, 1);
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.continuebutton {
+  width: 147px;
+  height: 48px;
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 43.58px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 1);
+}
+
+input:focus {
+  outline: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

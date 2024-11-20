@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+.container {
+  width: 13%;
+  height: 102vh;
+  background-color: rgba(32, 32, 32, 1);
+  position: relative;
+  top: 0;
+}
+
+.dashboarddiv {
+  width: 90%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: 10px;
+  font-family: Open Sans;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32.68px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.Link {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-items: center; /* Align text and image vertically */
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none; /* Remove underline from link text */
+  padding-bottom: 10px;
+}
+.Link:focus {
+  color: rgba(250, 74, 12, 1);
+}
+
+.dashboarddiv img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+/* .dashboarddiv img :focus {
+  background-color: rgba(250, 74, 12, 1);
+} */
+
+.menudiv {
+  width: 90%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 10px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.68px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.menulink {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center; /* Align text and image vertically */
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none; /* Remove underline from link text */
+  margin-left: 10px;
+  padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+.menulink:focus {
+  color: rgba(250, 74, 12, 1);
+}
+.menu {
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 14px;
+  height: 20px;
+}
+.arrow {
+  margin-right: 15px;
+  width: 20px;
+  height: 10px;
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 1);
+}
+.linksdiv {
+  display: none; /* Hidden by default */
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.linksdiv.visible {
+  display: block; /* Show when visible */
+  opacity: 1;
+  max-height: 200px; /* Adjust based on content */
+}
+
+.linksdiv.hidden {
+  display: none;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Indicates clickable */
+}
+
+.arrowReversed {
+  transform: rotate(180deg); /* Reverse the arrow direction */
+}
+.addMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+.addMenu:focus {
+  color: rgba(250, 74, 12, 1);
+}
+.addCategories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.addCategories:focus {
+  color: rgba(250, 74, 12, 1);
+}
+.addItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+.addItems:focus {
+  color: rgba(250, 74, 12, 1);
+}
+.Orders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.68px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Orderslink:focus {
+  color: rgba(250, 74, 12, 1);
+}
+.Orderslink {
+  display: flex;
+}
+.ordersImage {
+  margin-right: 20px;
+  margin-top: 5px;
+  width: 14px;
+  height: 20px;
+}
+.Reports {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.68px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.reportsLink:focus {
+  color: rgba(250, 74, 12, 1);
+}
+.reportsLink {
+  display: flex;
+}
+.reportsImage {
+  margin-right: 20px;
+  margin-top: 5px;
+  width: 14px;
+  height: 20px;
+}
+
+.Settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.68px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.settingsLink:focus {
+  color: rgba(250, 74, 12, 1);
+}
+.settingsLink {
+  display: flex;
+}
+.settingsImage {
+  margin-right: 20px;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.logoutdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  margin-left: 10px;
+  /* margin-top: 70%; */
+  position: absolute;
+  top: 87%;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(250, 74, 12, 1);
+  box-shadow: 1.8px 2.7px 3.6px 0px rgba(0, 0, 0, 0.25);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.68px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.logoutimage {
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+}

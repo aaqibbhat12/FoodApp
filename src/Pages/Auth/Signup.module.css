@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../assets/Images/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  position: relative;
+  overflow: hidden;
+}
+
+.partnerdiv {
+  width: 639px;
+  height: 524px;
+  margin-left: 100px;
+  padding: 117px 0;
+}
+
+.partnerinsidediv {
+  width: 525px;
+  height: 264px;
+  margin-left: 58px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.partnerline {
+  display: flex;
+  align-items: baseline;
+}
+
+.partnerspan {
+  font-family: "Open Sans";
+  font-size: 91px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.withspan {
+  font-family: "Open Sans";
+  font-size: 81px;
+  margin-left: 20px;
+  font-weight: 300;
+  padding-left: 10px; /* Adjust as needed */
+  color: rgba(255, 255, 255, 1);
+}
+
+.foodcartspan {
+  font-family: "Open Sans";
+  font-size: 81px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+  margin-top: -10px; /* Adjust for better alignment */
+}
+
+.getstarted {
+  width: 400px;
+  height: 400px;
+  margin-top: 170px;
+  margin-left: 110px;
+  border-radius: 20px;
+  background-color: rgba(32, 32, 32, 1);
+  box-shadow: 2px 2px 2px 0px rgba(255, 255, 255, 0.25);
+}
+.textgetstarted {
+  width: 343.5px;
+  height: 82.5px;
+  margin-left: 23px;
+  padding: 16.5px 33px 1px 31.5px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 65.37px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.mobile {
+  display: block;
+  width: 525px;
+  height: 117px;
+  margin-top: 50px;
+  margin-left: 31.5px;
+  /* text-align: center; */
+}
+.mobile label {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32.68px;
+  letter-spacing: 0.05em;
+  color: rgba(214, 214, 214, 1);
+  /* margin-left: 132px; */
+  /* text-align: left; */
+}
+.mobile input {
+  width: 340px;
+  height: 50px;
+  border-radius: 10px;
+  top: 177px;
+  left: 31.5px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  padding-left: 30px;
+  background: transparent;
+  color: white;
+}
+.mobile input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.button {
+  width: 265px;
+  height: 66px;
+  top: 307.5px;
+  margin-left: 70px;
+  text-align: center;
+  border-radius: 15px;
+  /* padding-top: 20px; */
+  background: rgba(250, 74, 12, 1);
+  box-shadow: 3px 4.5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.button button {
+  font-family: Open Sans;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 65.37px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 1);
+  /* text-align: left; */
+}
+.lastdiv {
+  width: 400px;
+  height: 58.5px;
+  top: 427.5px;
+  margin-left: 25.5px;
+  padding: 15px 43px 14.5px 42.5px;
+}
+.lastdiv span {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  /* line-height: 28.6px;
+  letter-spacing: 0.05em; */
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
+.mobile input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.mobile input[type="number"]::-webkit-outer-spin-button,
+.mobile input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Chrome, Safari, Edge, Opera */
+  margin: 0;
+}
+
+.vectorimg {
+  position: absolute;
+  top: 310px;
+}

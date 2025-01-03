@@ -2,8 +2,8 @@
 .container {
   position: absolute;
   top: 60px;
-  left: 13%;
-  width: 87%;
+  left: 15%;
+  width: 85%;
 }
 
 .topdivs {
@@ -119,7 +119,7 @@
 }
 
 .tablecontainer {
-  height: 81.5vh;
+  height: 90.5vh;
   overflow-y: auto;
   scrollbar-width: none;
 }

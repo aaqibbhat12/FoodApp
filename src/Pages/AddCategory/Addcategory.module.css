@@ -3,7 +3,7 @@
 .container {
   position: absolute;
   top: 30px;
-  left: 14%;
+  left: 16%;
   height: 100%;
 }
 
@@ -16,7 +16,7 @@
   line-height: 38.73px;
   letter-spacing: 0.05em;
   margin-left: 50px;
-  margin-top: 10px;
+  margin-top: 40px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -26,7 +26,7 @@
   margin-left: 50px;
   margin-top: 20px;
   width: 74vw;
-  height: 88vh;
+  height: 98%;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   /* border-radius: 10px; */
@@ -36,10 +36,10 @@
   display: flex;
 }
 .leftdiv {
-  width: 23%;
+  width: 50%;
   height: 117px;
   padding-top: 33px;
-  margin-left: 33px;
+  margin-left: 4%;
 }
 .leftdiv label {
   font-family: Open Sans;
@@ -75,11 +75,11 @@
 .rightdiv {
   margin-top: 65px;
   margin-left: 200px;
-  width: 25%;
-  margin-left: 40%;
+  width: 20%;
+  /* margin-left: 40%; */
 }
 .button {
-  width: 200px;
+  width: 100%;
   height: 65px;
   padding-top: 15px;
   border-radius: 9px;
@@ -119,15 +119,18 @@ hr {
 .addedMenus {
   width: 100%;
   display: flex;
+  padding: 0 3% 0 3%;
+  justify-content: space-between;
+  display: flex;
   margin-top: 10px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .menuName {
-  width: 14%;
+  width: 20%;
   height: 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 1);
   text-align: center;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   font-family: Open Sans;
   font-size: 18px;
   font-weight: 400;
@@ -139,9 +142,9 @@ hr {
   color: rgba(255, 255, 255, 1);
 }
 .categoriesAdded {
-  width: 12%;
-  height: 40px;
-  margin-left: 150px;
+  width: 20%;
+  height: 7%;
+  /* margin-left: 150px; */
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 1);
   font-family: Open Sans;
@@ -155,9 +158,9 @@ hr {
   color: rgba(255, 255, 255, 1);
 }
 .addCategory {
-  width: 10%;
-  height: 40px;
-  margin-left: 150px;
+  width: 20%;
+  /* height: 40px; */
+  /* margin-left: 150px; */
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 1);
   font-family: Open Sans;
@@ -172,47 +175,78 @@ hr {
 }
 .menusdata {
   display: flex;
-  margin-left: 90px;
-  margin-top: 20px;
+  justify-content: space-between; /* Ensures proper spacing between columns */
+  align-items: center; /* Vertically centers content within each span */
   width: 100%;
+  margin-top: 20px;
 }
-.menusdata p {
-  margin-left: 30px;
-  font-family: Open Sans;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 32.68px;
-  letter-spacing: 0.05em;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: rgba(255, 255, 255, 1);
-}
+
 .menusdata span {
-  margin-left: 230px;
+  width: 25.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.menusdata p {
   font-family: Open Sans;
   font-size: 18px;
   font-weight: 400;
   line-height: 32.68px;
   letter-spacing: 0.05em;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: rgba(255, 255, 255, 1);
 }
+
 .menusdata button {
-  width: 150px;
-  height: 40px;
-  background-color: rgba(250, 74, 12, 1);
-  border-radius: 10px;
-  margin-left: 200px;
   font-family: Open Sans;
-  font-size: 14.44px;
-  font-weight: 400;
-  line-height: 26.47px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
   letter-spacing: 0.05em;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(250, 74, 12, 1);
   color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.mainmenudata {
+  height: 40%;
+  overflow-y: scroll;
+}
+.mainmenudata::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+.noData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px; /* Adjust size as needed */
+  font-weight: bold;
+  color: white;
+}
+
+.noData span {
+  animation: blink 1.5s infinite;
+}
+
+.noData span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.noData span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
 }

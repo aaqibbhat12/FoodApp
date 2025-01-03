@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body {
+  background-color: rgba(214, 214, 214, 1);
+}
+
+/* .container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+} */
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button button {
+  padding: 5px 12px;
+  font-size: 14px;
+  border: none;
+  background-color: rgba(250, 74, 12, 1);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Full width for alignment */
+  font-family: Open Sans;
+  font-size: 16.92px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+.buttoncancel {
+  width: 180px;
+  height: 44px;
+  margin-left: 55%;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  color: rgba(32, 32, 32, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43.58px;
+  letter-spacing: 0.05em;
+}
+.buttoncontinue {
+  width: 180px;
+  height: 44px;
+  margin-left: 4%;
+  background: rgba(250, 74, 12, 1);
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43.58px;
+  letter-spacing: 0.05em;
+}
+.maindiv3 {
+  width: 960px;
+  height: 300px;
+  background: rgba(32, 32, 32, 1);
+  box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 200px;
+  border-radius: 10px;
+}
+.textdiv {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 21px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.68px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 1);
+  background: transparent;
+}
+
+.buttondownload {
+  width: 150px;
+  height: 90px;
+  background-color: rgba(250, 74, 12, 1);
+  margin-left: 100px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 10px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.downloadimage {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.browsemaindiv {
+  position: relative;
+  top: -100px;
+  left: 700px;
+  width: 150px;
+  border-radius: 10px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 10px;
+}
+.groupimagesdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+.groupimagesdiv img {
+  width: 22px;
+  height: 22px;
+}
+.uploadbuttondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.uploadbuttondiv button {
+  width: 100px;
+  height: 23px;
+  background-color: rgba(250, 74, 12, 1);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1.5px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.dragordropdiv {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+  width: 140px;
+  padding-right: 10px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 5px;
+  margin-top: 5px;
+  /* text-align: left; */
+}
+
+.uploadbutton {
+  margin-top: 20px;
+  background-color: rgba(250, 74, 12, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 120px;
+  margin-left: 15px;
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.3px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

@@ -29,7 +29,7 @@ const DashboardCharts = ({ title, dataPoints, labels }) => {
     ],
   };
 
-  const options = {
+  const options = { 
     responsive: true,
     plugins: {
       tooltip: {
@@ -102,7 +102,7 @@ const DashboardCharts = ({ title, dataPoints, labels }) => {
         style={{
           color: "rgba(255, 255, 255, 1)",
           marginBottom: "5px",
-          textAlign: "left",
+          textAlign: "right",
         }}
       >
         {title}

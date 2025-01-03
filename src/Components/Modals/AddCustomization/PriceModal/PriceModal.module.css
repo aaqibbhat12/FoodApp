@@ -1,0 +1,90 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(160, 160, 160, 0.5);
+  backdrop-filter: blur(8px);
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  z-index: 2000;
+}
+.modalContent {
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  left: 50%;
+  top: 110px;
+  transform: translateX(-50%);
+  border-radius: 8px;
+  width: 20%;
+  max-height: 90vh;
+  height: 150px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.size {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-left: 40%;
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.size span {
+  color: rgba(28, 18, 13, 1);
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adds space between checkbox and text */
+  padding-top: 10px;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.input span {
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(68, 62, 62, 1);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50%;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.button button {
+  background-color: rgba(250, 74, 12, 1);
+  width: 90px;
+  height: 30px;
+  border-radius: 6px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  cursor: pointer;
+}

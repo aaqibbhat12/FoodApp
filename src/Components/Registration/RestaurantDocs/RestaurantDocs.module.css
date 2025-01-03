@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body {
+  background-color: rgba(214, 214, 214, 1);
+}
+
+/* .container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+} */
+.buttons {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+.buttoncancel {
+  width: 180px;
+  height: 44px;
+  margin-left: 55%;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  color: rgba(32, 32, 32, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43.58px;
+  letter-spacing: 0.05em;
+}
+.buttoncontinue {
+  width: 180px;
+  height: 44px;
+  margin-left: 4%;
+  background: rgba(250, 74, 12, 1);
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43.58px;
+  letter-spacing: 0.05em;
+}
+
+/* styling for the second step */
+
+.leftrightmaindiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 30px; */
+  width: 100%;
+}
+.leftdiv2 {
+  width: 480px;
+  height: 300px;
+  gap: 32px;
+  border-radius: 10px 0px 0px 10px;
+  background: rgba(32, 32, 32, 1);
+  box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rightdiv2 {
+  width: 480px;
+  height: 300px;
+  /* margin-top: 286px; */
+  /* margin-left: 794px; */
+  gap: 0px;
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0px;
+  background: rgba(32, 32, 32, 1);
+  box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.leftdiv2 {
+  padding: 35px;
+  padding-left: 50px;
+  padding-top: 20px;
+  /* background: rgba(32, 32, 32, 1);
+  box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);  */
+}
+
+.outlettype {
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.outletlabel label {
+  font-family: Open Sans;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.outloptions select {
+  width: 100%;
+  height: 40px;
+  /* margin-top: 10px; */
+  border-radius: 6px;
+  padding-left: 20px;
+  background: transparent;
+  color: rgba(214, 214, 214, 1);
+  border: 2px solid rgba(198, 198, 198, 0.5);
+}
+.outloptions select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.outloptions option {
+  background-color: rgba(32, 32, 32, 1);
+  color: white;
+  border: none;
+}
+.pannumber,
+.GSTIN {
+  margin-top: 20px;
+}
+
+.labelpannumber,
+.labelgstin {
+  font-family: Open Sans;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.pannumberinput input,
+.BankAccountinput input {
+  width: 100%;
+  height: 40px;
+  /* margin-top: 10px; */
+  border-radius: 6px;
+  padding-left: 20px;
+  background: transparent;
+  color: rgba(214, 214, 214, 1);
+  border: 2px solid rgba(198, 198, 198, 0.5);
+}
+
+.rightdiv2 {
+  /* width: 45%; */
+  padding: 10px;
+  padding-left: 20px;
+  padding-top: 0px;
+  /* background: rgba(32, 32, 32, 1);
+  box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25); */
+  /* border-radius: 10px; */
+}
+
+.BankAccount,
+.BankIfsc,
+.Fssainumber {
+  margin-top: 15px;
+}
+
+.BankAccountlabel,
+.Ifsclabel,
+.fssailabel {
+  font-family: Open Sans;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.BankAccountinput input {
+  width: 90%;
+  height: 40px;
+  /* margin-top: 10px; */
+  border-radius: 6px;
+  padding-left: 20px;
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(198, 198, 198, 0.5);
+}
+
+.rightdiv2 .BankAccount,
+.rightdiv2 .BankIfsc,
+.rightdiv2 .Fssainumber {
+  margin-bottom: 20px;
+}
+
+.star {
+  color: rgba(250, 74, 12, 1);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 200;
+  text-align: left;
+}
+
+/* css for the 3rd step  */

@@ -1,0 +1,127 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(160, 160, 160, 0.5);
+  backdrop-filter: blur(8px);
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: white;
+  position: relative;
+  left: 35%;
+  top: 50px;
+  border-radius: 8px;
+  width: 40%;
+  max-height: 90vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.Addoptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.addoptionsdiv {
+  background-color: rgba(252, 250, 247, 1);
+  height: 60px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.cross {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding-left: 20%;
+  width: 18px;
+  height: 18px;
+  color: rgba(28, 18, 13, 1);
+  cursor: pointer;
+}
+.customtitles {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  gap: 50px; /* Space between the divs */
+  justify-content: space-between; /* Optional: Space them evenly */
+}
+
+.title1,
+.title2,
+.title3,
+.title4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: calc(50% - 10px); /* Ensure two items fit per row with some space */
+  border-radius: 4px; /* Optional: Rounded corners */
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.title1 span,
+.title2 span,
+.title3 span,
+.title4 span {
+  margin-left: 5px; /* Add space between the text and "+" */
+  color: rgba(28, 18, 13, 1); /* Optional: Color for the "+" */
+  cursor: pointer;
+}
+
+.newItem {
+  color: rgba(58, 188, 51, 1);
+  /* font-weight: bold; */
+}
+
+.addButton {
+  cursor: pointer;
+  padding-left: 10px;
+  margin-left: 15px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 30%;
+  height: 30px;
+  background-color: rgba(250, 74, 12, 1);
+  border-radius: 5px;
+  color: white;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.editimageButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editImage {
+  width: 25px;
+  height: 25px;
+  padding-top: 10px;
+  object-fit: contain;
+  padding-left: 10px;
+}

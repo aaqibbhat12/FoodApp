@@ -1,0 +1,304 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(160, 160, 160, 0.5);
+  backdrop-filter: blur(8px);
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  z-index: 100000;
+}
+
+.modalContent {
+  background-color: white;
+  position: relative;
+  left: 35%;
+  top: 50px;
+  border-radius: 8px;
+  width: 40%;
+  max-height: 90vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+/* .closeButton {
+    position: relative;
+    left: 70%;
+    top: 2px;
+    right: px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  } */
+.newOrder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.newOrder span {
+  width: 30%;
+  /* height: auto; */
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 400;
+  /* line-height: 9px; */
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(250, 74, 12, 1);
+  border-bottom: 1px dashed rgba(109, 109, 109, 1);
+}
+.Order {
+  width: 90%;
+  border-bottom: 1px dashed rgba(109, 109, 109, 1);
+  padding-bottom: 20px;
+  display: flex;
+}
+.idspan {
+  display: flex;
+  /* padding-left: 50px; */
+  padding-top: 10px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 1);
+}
+.idspan span {
+  color: rgba(109, 109, 109, 1);
+  padding-left: 10px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.dayspan {
+  /* display: flex; */
+  color: rgba(109, 109, 109, 1);
+  font-family: Open Sans;
+  padding-left: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 50px;
+  margin-top: 8px;
+
+  /* padding-left: 50px; */
+}
+.dayspan p {
+  padding-left: 100px;
+  color: rgba(109, 109, 109, 1);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.mainorderdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OrderDetailsText {
+  padding-left: 25px;
+  padding-top: 10px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 1);
+}
+.OrderDetails {
+  display: flex;
+  justify-content: space-between; /* Ensure equal spacing between items */
+  align-items: center; /* Align items vertically */
+  padding: 15px 0; /* Reduce top-bottom padding for better alignment */
+  width: 100%;
+}
+.mainOrderDetails {
+  border-bottom: 1px dashed rgba(109, 109, 109, 0.5); /* Add separation for clarity */
+}
+
+.pizza {
+  flex: 2; /* Adjust spacing proportionally */
+  padding-left: 10px; /* Reduce excessive padding */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(109, 109, 109, 1);
+}
+
+.quantity {
+  flex: 1; /* Adjust proportional width */
+  text-align: center; /* Center align quantity */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(109, 109, 109, 1);
+}
+
+.rupese {
+  flex: 2; /* Adjust proportional width */
+  text-align: center; /* Center align price */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(109, 109, 109, 1);
+}
+
+.customization {
+  flex: 3; /* Adjust proportional width */
+  text-align: right; /* Align to the right */
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(61, 105, 171, 1);
+  cursor: pointer; /* Indicate clickability */
+}
+
+.mainOrderDetails {
+  width: 90%;
+  margin: 0 auto; /* Center the container */
+}
+
+.deliverDetailsText {
+  padding-left: 25px;
+  padding-top: 10px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 1);
+}
+.DeliveryDetails {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.From {
+  padding-left: 25px;
+  padding-top: 15px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(32, 32, 32, 1);
+}
+.Address {
+  padding-right: 25px;
+  padding-top: 15px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(32, 32, 32, 1);
+}
+.maindeviveryDiv {
+  width: 90%;
+  border-bottom: 1px dashed rgba(109, 109, 109, 1);
+  margin-left: 20px;
+}
+.PaymentDetailsText {
+  padding-left: 25px;
+  padding-top: 10px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 1);
+}
+.PaymentDetails {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.Paid {
+  padding-left: 25px;
+  padding-top: 15px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(32, 32, 32, 1);
+}
+.Type {
+  padding-right: 25px;
+  padding-top: 15px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(32, 32, 32, 1);
+}
+.mainPaymentDetais {
+  width: 90%;
+  border-bottom: 1px dashed rgba(109, 109, 109, 1);
+  margin-left: 20px;
+}
+.buttonsdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+  position: sticky;
+  bottom: 0;
+}
+.acceptbutton {
+  width: 40%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: rgba(250, 74, 12, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 43.58px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.rejectbutton {
+  width: 40%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: rgba(109, 109, 109, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 43.58px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
